@@ -29,7 +29,7 @@ RUN \
         x264=20191119-r0 \
         x265=3.2.1-r0 \
     && git clone -b master --single-branch \
-        https://gitlab.com/Shinobi-Systems/Shinobi.git /opt/shinobi/ \
+        https://gitlab.com/Shinobi-Systems/ShinobiCE.git /opt/shinobi/ \
     && git -C /opt/shinobi checkout 3f536cc1c6c616029f4a8a83c48356cb934979e9 \
     && git -C /opt/shinobi reflog expire --expire=now --all \
     && git -C /opt/shinobi gc --prune=now --aggressive \
